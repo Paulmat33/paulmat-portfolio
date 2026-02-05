@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sora), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
 @layer components {
+  .scroll-offset {
+    scroll-margin-top: 15vh;
+  }
   .nav_link {
     @apply relative text-base font-medium w-fit block text-white;
   }
