@@ -179,7 +179,7 @@ export const skillsData = [
 
 export const clientReviews = [
   {
-    name: "John Doe",
+    name: "Eboigbe James",
     review:
       "Exceptional service! The team delivered exactly what we needed on time. Very professional",
     rating: 5,
@@ -187,7 +187,7 @@ export const clientReviews = [
     image: "/images/u1.jpg",
   },
   {
-    name: "Jane Smith",
+    name: "Simeon Dooshima",
     review:
       "Highly skilled developers who understand the client's vision and execute perfectly.",
     rating: 4.8,
